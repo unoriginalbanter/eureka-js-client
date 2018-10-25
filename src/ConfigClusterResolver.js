@@ -48,6 +48,6 @@ export default class ConfigClusterResolver {
     if (ec2Region && availabilityZones && availabilityZones[ec2Region]) {
       return availabilityZones[ec2Region];
     }
-    return ['default'];
+    return ['default', 'defaultZone'];
   }
 }
