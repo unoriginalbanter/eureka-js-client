@@ -1,5 +1,5 @@
 {
-  "name": "eureka-js-client",
+  "name": "@everymundo/eureka-js-client",
   "version": "4.4.2",
   "description": "A JavaScript implementation the Netflix OSS service registry, Eureka.",
   "main": "lib/index.js",
